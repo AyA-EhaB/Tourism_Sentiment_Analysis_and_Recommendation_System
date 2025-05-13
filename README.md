@@ -134,8 +134,3 @@ The project integrates Large Language Models (LLMs) to generate actionable recom
 - Naden Mohamed
 - Ahmed Walied
 
-## License
-[Specify your license here]
-
-## Acknowledgments
-[Add any acknowledgments, tools, libraries, or resources that were helpful]
