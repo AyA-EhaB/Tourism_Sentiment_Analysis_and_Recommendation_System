@@ -3,7 +3,7 @@
 ## Project Overview
 This project leverages AI and data science to enhance Egypt's tourism sector by analyzing visitor sentiments from online reviews. Using Natural Language Processing (NLP) and Machine Learning (ML), the system classifies sentiments and generates actionable recommendations to improve tourist experiences.
 
-![Tourism Analysis]([https://via.placeholder.com/800x400?text=Tourism+Sentiment+Analysis](https://bilstmpy-m6s8ts8adzgn4zfzyi9zji.streamlit.app/))
+https://bilstmpy-m6s8ts8adzgn4zfzyi9zji.streamlit.app/
 
 ![Screenshot 2025-05-13 130829](https://github.com/user-attachments/assets/581a1ee4-3b96-4691-9774-505a0ca08ba9)
 
@@ -100,10 +100,7 @@ The BiLSTM model was selected as the final model due to:
 
 ## System Components
 
-### Aspect-Based Sentiment Analysis (ABSA)
-- Extracts specific aspects from reviews (e.g., "hotel cleanliness", "tour guide")
-- Classifies sentiment toward each aspect rather than just the overall review
-- Identifies key factors affecting tourist satisfaction
+### BiLSTM model for Classifying Reviews
 
 ### Recommendation System
 The project integrates Large Language Models (LLMs) to generate actionable recommendations:
