@@ -22,13 +22,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# Download required NLTK resources
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
 
-# Load BiLSTM model and preprocessing tools
+
 model = tf.keras.models.load_model("Artifacts/BiLSTM.h5")
 
 with open("Artifacts/bi_tokenizer.pkl", "rb") as f:
