@@ -14,11 +14,11 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
 
-# Download required NLTK resources
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
+# Tell NLTK where to find the downloaded resources
+nltk_data_path = os.path.join(os.path.dirname(__file__), "nltk_data")
+nltk.data.path.append(nltk_data_path)
+
+
 
 # Load BiLSTM model and preprocessing tools
 model = tf.keras.models.load_model("Artifacts/BiLSTM.h5")
